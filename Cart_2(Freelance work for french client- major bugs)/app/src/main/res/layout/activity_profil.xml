@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/navbarProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Profil"
+                android:textColor="#000000"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Username"
+                android:textColor="#000000"
+                android:textSize="50px" />
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="pbodineau"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Date d'inscription :"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+
+            <TextView
+                android:id="@+id/dateInscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="10/12/2019"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Prénom"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+            <EditText
+                android:id="@+id/prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:hint="Pierre"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Nom"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:hint="Bodineau"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="40px" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Modifier NOM/PRÉNOM"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Mot de passe actuel"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+            <EditText
+                android:id="@+id/mdpActuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="40px" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Nouveau mot de passe"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+            <EditText
+                android:id="@+id/nouveauMdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="40px" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Confirmer nouveau mot de passe"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+            <EditText
+                android:id="@+id/confirmationMdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="40px" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Modifier mot de passe"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNbPenalite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de pénalité : 2"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+
+            <TextView
+                android:id="@+id/tvPenaliteEnCours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pénalité en cours : 2"
+                android:textColor="#000000"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/tvNbCommande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de commande : 2"
+                android:textColor="#000000"
+                android:textSize="40px" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

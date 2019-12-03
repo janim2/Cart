@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Panier">
+
+    <LinearLayout
+        android:id="@+id/navbar_panier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Panier"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:gravity="start"
+            android:text="produit"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:gravity="start"
+            android:text="prix"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="33"
+            android:gravity="start"
+            android:text="quantite"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvpanier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+       <TextView
+           android:textColor="@android:color/black"
+           android:layout_margin="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Total: "
+           android:textStyle="bold"
+           />
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.00$"
+            android:id="@+id/total"
+            android:gravity="end|center"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:background="#ec1c24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vider"
+            android:textColor="#fff"
+            />
+        <Button
+            android:background="#00AF33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Commander"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "sandwich",
+    "idCategorie": 1,
+    "description": "Sandwich basic ",
+    "prix": 4.0,
+    "imgName": "sandwich",
+    "quantite": 1
+  },
+  {
+    "id": 2,
+    "name": "coca",
+    "idCategorie": 2,
+    "description": "Boisson gazeuse",
+    "prix": 1.00,
+    "imgName": "coca",
+    "quantite": 2
+  }
+]

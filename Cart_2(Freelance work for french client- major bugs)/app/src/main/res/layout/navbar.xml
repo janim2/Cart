@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#46454f"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0px"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_weight="25"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_inscription"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:text="Inscription"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/tv_connexion"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:onClick="clickConnexion"
+        android:text="Connexion"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/ipanier"
+        android:layout_width="0px"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_weight="25"
+        android:src="@drawable/shoppingcart"
+        android:tint="@android:color/white" />
+
+</LinearLayout>

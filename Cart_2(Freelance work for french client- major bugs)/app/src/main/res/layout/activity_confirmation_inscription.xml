@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmationInscription">
+    <LinearLayout
+        android:id="@+id/navbar_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merci de votre inscription !"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#00AF33"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vous avez été bien enregistré ! On vient de vous envoyer un e-mail de confirmation."
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vous pouvez maintenant vous connecter pour accéder à votre compte"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Connexion"
+        android:background="#00AF33"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        />
+
+
+</LinearLayout>
